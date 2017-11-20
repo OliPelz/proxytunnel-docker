@@ -6,6 +6,7 @@ How does it work: It uses the HTTP Connect Method in the proxy server which forw
 unchanged. This is the same mechanism used if you HTTPS over a proxy server. To learn more read:
 
 [HTTP tunnel](https://en.wikipedia.org/wiki/HTTP_tunnel)
+
 [How to use the git protocol through a http connect proxy](https://www.emilsit.net/blog/archives/how-to-use-the-git-protocol-through-a-http-connect-proxy/)
 
 Small example to talk to an external SMTP server in a cooperated environment over a proxy server 
