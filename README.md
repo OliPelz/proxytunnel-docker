@@ -65,8 +65,7 @@ Escape character is '^]'.
 ```
 
 
-Another tip If you are bypassing SMTP
-To test SMTP connections I usually use [Swaks](http://www.jetmore.org/john/code/swaks/)
+Another tip I am testing SMTP  connections I usually use [Swaks](http://www.jetmore.org/john/code/swaks/)
 
 here is an example I would use
 
