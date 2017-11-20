@@ -29,6 +29,24 @@ docker run -e PROXY_SERVER=cooperate.proxyserver \
   -p 555:2222
   olipelz/proxytunnel-docker
 ```
+or as a ```docker-compose.yml```
+
+```bash
+version: '3'
+services:
+   smtp-proxytunnel:
+      build: .
+      environment:
+              - PROXY_SERVER=cooperate.proxyserver
+              - PROXY_PORT=3128
+              - TARGET_SERVER=smtp.yourmailhost.com
+              - TARGET_PORT=587
+              - LOCAL_PORT=2222
+      ports:
+              - "555:2222"
+```
+then run ```docker-compose up```
+
 
 Now test your setup using your favorite cli mail sending tool or simply telnet
 
