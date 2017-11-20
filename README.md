@@ -14,7 +14,7 @@ Small example to talk to an external SMTP server in a cooperated environment ove
 
 ```bash
 git clone https://github.com/OliPelz/proxytunnel-docker.git
-docker build . -t OliPelz/proxytunnel-docker
+docker build . -t olipelz/proxytunnel-docker
 ``` 
 
 As an example:
